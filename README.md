@@ -10,6 +10,7 @@ Distinguish a real face from one created by a GAN
 
 <ul>
 
+<li>
 ## What is
 
 Facial manipulation technologies have achieved significant advances (eg GAN…).
@@ -19,7 +20,9 @@ A possible approach to identifying fake faces is through spectrum analysis, as t
 or compression errors could be described well.
 The method that was adopted to address the issue under consideration saw the use of the discrete Fourier transform applied to the images to move to the frequency domain, extracting interesting features for the subsequent classification of faces into real or false.
 Two GAN networks have been adopted for the creation of the fake faces: StyleGAN and StyleGAN 2 both from Nvidia.
-  
+</li> 
+
+<li>
 ## Dataset
 
 Flickr-Faces-HQ (FFHQ) is a high-quality image dataset of human faces, originally created as a benchmark for opposing generative networks (GANs): the dataset consists of 70,000 high-quality PNG images with a resolution of 1024 × 1024 and contains notable variations in terms of age, ethnicity and background of the image. It also has good coverage of accessories such as eyeglasses, sunglasses, hats, etc. The images were scanned from Flickr and automatically aligned and cropped.
