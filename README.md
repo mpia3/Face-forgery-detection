@@ -5,8 +5,9 @@ Distinguish a real face from one created by a GAN
 
 1. [**What is**](#what-is)
 2. [**Dataset**](#Dataset)
-3. [**Evaluation and Results**](#evaluation-and-results)
-4. [**Credits**](#credits)
+3. [**Method**](#Method)
+4. [**Evaluation and Results**](#evaluation-and-results)
+5. [**Credits**](#credits)
 
 <ul>
 
@@ -34,27 +35,28 @@ Two GAN networks have been adopted for the creation of the fake faces: StyleGAN 
 
 <li>CelebFaces Attributes Dataset (CelebA) is a large-scale face attribute dataset with over 200,000 celebrity images, each with 40 attribute annotations. The images in this dataset cover large variations in pose and background confusion. CelebA has great diversity, large quantities and rich annotations. The version used is the high definition version with a resolution of 1024 x 1024.</li>
 
-<li>StyleGAN 1 100k generated images: dataset of 100,000 images produced using StyleGAN set to obtain the best quality of faces with a resolution of 1024x1024.</li>
+<li>StyleGAN1 100k generated images: dataset of 100,000 images produced using StyleGAN set to obtain the best quality of faces with a resolution of 1024x1024.</li>
 
-<li>StyleGAN 1 100k generated images: dataset of 100,000 images produced using StyleGAN set to obtain the best quality of faces with a resolution of 1024x1024.</li>
+<li>StyleGAN2 100k generated images [14]: of 100,000 images produced using StyleGAN 2 set to obtain the best quality of faces with resolution 1024x1024.</li>
 
 </ul>
 	
+</li>
+	
+<li>
+
+## Method
+
+Frequency domain analysis is important in signal processing theory. In the field of computer vision, the repetitive nature or characteristics of frequencies can be analyzed in space through the Fourier Transform. The information extracted is a spectral decomposition of the input and indicates how the signal energy is distributed over a range of frequencies.
+![](doc/images/pipeline.PNG)
+
 </li>
 
 <li>
 
 ## Evaluation and Results
 
-5 fold cross validation to find the best configuration (n_estimators, bootstrap, randomization) for a random forest. <br>
-One random forest constructed from the original dataset. <br>
-Another one built from the top 10 main components (PCA). <br>
-Parameters: randomization sqrt and log2, n_estimators between 10, 20 and 30, bootstrap between 0.5, 0.6, 0.7, 0.8 and 0.9 <br>
-Best configuration evaluated taking into account the best average fscore value on the test folds. <br>
-Learning of a random forest on the entire original dataset with: n_estimators = 10, bootstrap = 0.9, randomization = sqrt. <br>
-Learning of a random forest on the dataset by applying the PCA with: n_estimators = 20, bootstrap = 0.9, randomization = log2. <br>
-Learning of a staker of the two previous points using the KNN with K = 3. <br>
-<br>
+
 ![](doc/results_testing_set.PNG)
 
 </li>
