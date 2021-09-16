@@ -12,12 +12,12 @@ Distinguish a real face from one created by a GAN
 
 ## What is
 
-Facial manipulation technologies have achieved significant advances (eg GAN…). <br>
-Social concerns about the potential abuse of these technologies have led to the emergence of a new research topic: face forgery detection. <br>
-However, it is extremely challenging as recent advances have been able to create faces beyond the perception capability of human eyes, especially in images and videos. <br>
-A possible approach to identifying fake faces is through spectrum analysis, as the frequency provides a complementary point of view through which falsification artifacts <br>
-or compression errors could be described well. <br>
-The method that was adopted to address the issue under consideration saw the use of the discrete Fourier transform applied to the images to move to the frequency domain, <br> extracting interesting features for the subsequent classification of faces into real or false. <br>
+Facial manipulation technologies have achieved significant advances (eg GAN…).
+Social concerns about the potential abuse of these technologies have led to the emergence of a new research topic: face forgery detection.
+However, it is extremely challenging as recent advances have been able to create faces beyond the perception capability of human eyes, especially in images and videos.
+A possible approach to identifying fake faces is through spectrum analysis, as the frequency provides a complementary point of view through which falsification artifacts
+or compression errors could be described well.
+The method that was adopted to address the issue under consideration saw the use of the discrete Fourier transform applied to the images to move to the frequency domain, extracting interesting features for the subsequent classification of faces into real or false.
 Two GAN networks have been adopted for the creation of the fake faces: StyleGAN and StyleGAN 2 both from Nvidia.
   
 ## Dataset
