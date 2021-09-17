@@ -37,7 +37,7 @@ Two GAN networks have been adopted for the creation of the fake faces: StyleGAN 
 
 <li>StyleGAN1 100k generated images: dataset of 100,000 images produced using StyleGAN set to obtain the best quality of faces with a resolution of 1024x1024.</li>
 
-<li>StyleGAN2 100k generated images [14]: of 100,000 images produced using StyleGAN 2 set to obtain the best quality of faces with resolution 1024x1024.</li>
+<li>StyleGAN2 100k generated images: of 100,000 images produced using StyleGAN 2 set to obtain the best quality of faces with resolution 1024x1024.</li>
 
 </ul>
 	
