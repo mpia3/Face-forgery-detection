@@ -57,7 +57,7 @@ Frequency domain analysis is important in signal processing theory. In the field
      ![](doc/images/esempio2.png) <br><br>
 
 
-<li  Azimuthal Average </li> <br><br>
+<li> Azimuthal Average </li> <br><br>
      ![](doc/images/FFHQ_1.png) <br><br>
      ![](doc/images/StyleGAN1_0.png) <br><br>
      ![](doc/images/StyleGAN2_0.png) <br><br>
