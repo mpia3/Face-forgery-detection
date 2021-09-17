@@ -52,21 +52,16 @@ Frequency domain analysis is important in signal processing theory. In the field
 
 <ul>
 	
-<li> 2D Discrete Fourier Transform (2D DFT) <br><br>
+<li> 2D Discrete Fourier Transform (2D DFT) </li> <br><br>
      ![](doc/images/esempio1.png) <br><br>
-     ![](doc/images/esempio2.png)
-</li>
+     ![](doc/images/esempio2.png) <br><br>
 
-<li>Azimuthal Average <br><br>
-    ![](doc/images/FFHQ_1.png) <br><br>
-    ![](doc/images/StyleGAN1_0.png) <br><br>
-    ![](doc/images/StyleGAN2_0.png) <br><br>
-    ![](doc/images/celebA-HQ_9.png)
-</li>
 
-<li></li>
-
-<li></li>
+<li  Azimuthal Average </li> <br><br>
+     ![](doc/images/FFHQ_1.png) <br><br>
+     ![](doc/images/StyleGAN1_0.png) <br><br>
+     ![](doc/images/StyleGAN2_0.png) <br><br>
+     ![](doc/images/celebA-HQ_9.png)
 
 </ul>
 
