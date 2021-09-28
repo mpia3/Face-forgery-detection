@@ -32,13 +32,13 @@ Two GAN networks have been adopted for the creation of the fake faces: StyleGAN 
 
 <ul>
 	
-<li>Flickr-Faces-HQ (FFHQ) is a high-quality image dataset of human faces, originally created as a benchmark for opposing generative networks (GANs): the dataset consists of 70,000 high-quality PNG images with a resolution of 1024 × 1024 and contains notable variations in terms of age, ethnicity and background of the image. It also has good coverage of accessories such as eyeglasses, sunglasses, hats, etc. The images were scanned from Flickr and automatically aligned and cropped.</li>
+<li>Flickr-Faces-HQ (FFHQ) [21] is a high-quality image dataset of human faces, originally created as a benchmark for opposing generative networks (GANs): the dataset consists of 70,000 high-quality PNG images with a resolution of 1024 × 1024 and contains notable variations in terms of age, ethnicity and background of the image. It also has good coverage of accessories such as eyeglasses, sunglasses, hats, etc. The images were scanned from Flickr and automatically aligned and cropped.</li>
 
-<li>CelebFaces Attributes Dataset (CelebA) is a large-scale face attribute dataset with over 200,000 celebrity images, each with 40 attribute annotations. The images in this dataset cover large variations in pose and background confusion. CelebA has great diversity, large quantities and rich annotations. The version used is the high definition version with a resolution of 1024 x 1024.</li>
+<li>CelebFaces Attributes Dataset (CelebA) [17] is a large-scale face attribute dataset with over 200,000 celebrity images, each with 40 attribute annotations. The images in this dataset cover large variations in pose and background confusion. CelebA has great diversity, large quantities and rich annotations. The version used is the high definition version with a resolution of 1024 x 1024.</li>
 
-<li>StyleGAN1 100k generated images: dataset of 100,000 images produced using StyleGAN set to obtain the best quality of faces with a resolution of 1024x1024.</li>
+<li>StyleGAN1 100k generated images [13]: dataset of 100,000 images produced using StyleGAN set to obtain the best quality of faces with a resolution of 1024x1024.</li>
 
-<li>StyleGAN2 100k generated images: of 100,000 images produced using StyleGAN 2 set to obtain the best quality of faces with resolution 1024x1024.</li>
+<li>StyleGAN2 100k generated images [14]: of 100,000 images produced using StyleGAN 2 set to obtain the best quality of faces with resolution 1024x1024.</li>
 
 <br><br> ![](/doc/images/spectrumAnalysisdatasets.jpg)
 
@@ -57,7 +57,7 @@ Frequency domain analysis is important in signal processing theory. In the field
 <br><br> ![](/doc/images/example1.jpg)
 <br><br> ![](/doc/images/example2.jpg)
 
-<b>Azimuthal Average</b> 
+<b>Azimuthal Average [3]</b> 
 <br><br> ![](/doc/images/FFHQ.jpg)
 <br><br> ![](/doc/images/StyleGAN1.jpg)
 <br><br> ![](/doc/images/StyleGAN2.jpg)
