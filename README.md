@@ -48,21 +48,21 @@ Two GAN networks have been adopted for the creation of the fake faces: StyleGAN 
 ## Method
 
 Frequency domain analysis is important in signal processing theory. In the field of computer vision, the repetitive nature or characteristics of frequencies can be analyzed in space through the Fourier Transform. The information extracted is a spectral decomposition of the input and indicates how the signal energy is distributed over a range of frequencies.<br><br>
-![](doc/images/pipeline.jpg)
+![](/doc/images/pipeline.jpg)
 
 <ul>
 	
 <li> 2D Discrete Fourier Transform (2D DFT) <br><br>
-     ![](doc/images/esempio1.png) <br><br>
-     ![](doc/images/esempio2.png) <br><br>
+     ![](/doc/images/esempio1.png) <br><br>
+     ![](/doc/images/esempio2.png) <br><br>
 </li>
 
 
 <li> Azimuthal Average <br><br>
-     ![](doc/images/FFHQ_1.png) <br><br>
-     ![](doc/images/StyleGAN1_0.png) <br><br>
-     ![](doc/images/StyleGAN2_0.png) <br><br>
-     ![](doc/images/celebA-HQ_9.png)
+     ![](/doc/images/FFHQ_1.png) <br><br>
+     ![](/doc/images/StyleGAN1_0.png) <br><br>
+     ![](/doc/images/StyleGAN2_0.png) <br><br>
+     ![](/doc/images/celebA-HQ_9.png)
 </li>
 
 </ul>
