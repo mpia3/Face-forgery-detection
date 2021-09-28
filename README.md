@@ -71,44 +71,44 @@ Frequency domain analysis is important in signal processing theory. In the field
 
 <b>1 vs 1</b>: this first experiment aims to discover significant patterns in order to discriminate real faces from fake ones as effectively as possible using a dataset of real faces and one of fake faces in rotation (1 vs 1). Therefore the tests performed concern: FFHQ vs StyleGAN 1, FFHQ vs StyleGAN 2, celebA vs StyleGAN 1 and celebA vs StyleGAN 2. For the subdivision into train set and test set, the proportion 80% - 20% was adopted respectively, so as to have the same number of samples of real and fake faces in both the train set and test set. In particular, the train set consists of 6400 samples (3200 real, 3200 fake) the test set of 1600 samples (800 real, 800 fake). To determine the best parameters to apply to SVM and Random Forest, a 5-fold cross validation was performed on the train set. The metric used to determine the best parameters was the fscore averaged over the test folds.
 
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/1vs1.png)
 
 <b>FFHQ vs StyleGAN1</b>
-<br><br> ![](/doc/images/)
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/FFHQvsStyleGAN1res.png)
+<br><br> ![](/doc/images/FFHQvsStyleGAN1graph.png)
 
 <b>FFHQ vs StyleGAN2</b>
-<br><br> ![](/doc/images/)
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/FFHQvsStyleGAN2res.png)
+<br><br> ![](/doc/images/FFHQvsStyleGAN2graph.png)
 	
 <b>CelebA vs StyleGAN1</b>
-<br><br> ![](/doc/images/)
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/celebAvsStyleGAN1res.png)
+<br><br> ![](/doc/images/celebAvsStyleGAN1graph.png)
 	
 <b>CelebA vs StyleGAN2</b>
-<br><br> ![](/doc/images/)
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/celebAvsStyleGAN2res.png)
+<br><br> ![](/doc/images/celebAvsStyleGAN2graph.png)
 	
 <b>Shallow learning (spectrum domain) vs Deep learning (pixel domain)</b>
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/ShallowLearningvsDeepLearning.png)
 
 <b>2 vs 1</b>: this experiment instead aims to compare with other related works [4] [5] [33] [34]. The approach on this occasion consists of a 2 vs 1, or two datasets of real faces and one of fake faces. Therefore the tests performed concern: FFHQ, celebA vs StyleGAN 1, FFHQ, celebA vs StyleGAN 2. For the subdivision into train set and test set, the proportion 80% - 20% stratified was adopted respectively so as to have the same number of samples of real and fake faces both in the train set and test set. In particular, the train set consists of 6400 samples (3200 real, 3200 fake) the test set of 1600 samples (800 real, 800 fake). To determine the best parameters to apply to SVM and Random Forest, a 5-fold cross validation was performed on the train set. The metric used to determine the best parameters was the fscore averaged over the test folds.
 
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/1vs2.png)
 
 <b>FFHQ, CelebA vs StyleGAN1</b>
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/FFHQCelebAvsStyleGAN1.png)
 
 <b>FFHQ, CelebA vs StyleGAN2</b>
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/FFHQCelebAvsStyleGAN2.png)
 
 <b>My method vs State of the art</b>
-<br><br> ![](/doc/images/)
+<br><br> ![](/doc/images/vsStateOfTheArt.png)
 
 <b>FFHQ, celebA vs StyleGAN 1, StyleGAN 2</b>: to conclude the experimentation, all the individual datasets were combined to form a single dataset from which to determine the discriminating patterns to correctly classify real faces from fake ones (fig. 22). For the subdivision into train set and test set, the 80% - 20% stratified proportion was adopted respectively so as to have the same number of samples of real and fake faces both in the train set and test set. In particular, the train set consists of 12800 samples (6400 real, 6400 fake) the test set of 3200 samples (1600 real, 1600 fake). To determine the best parameters to apply to SVM and Random Forest, a 5-fold cross validation was performed on the train set. The metric used to determine the best parameters was the fscore averaged over the test folds.
 
-<br><br> ![](doc/images/)
-<br><br> ![](doc/images/)
+<br><br> ![](doc/images/allvsall.png)
+<br><br> ![](doc/images/FFHQCelebAvsStyleGAN1_2.png)
 
 </li>
 
