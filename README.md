@@ -40,7 +40,7 @@ Two GAN networks have been adopted for the creation of the fake faces: StyleGAN 
 
 <li>StyleGAN2 100k generated images: of 100,000 images produced using StyleGAN 2 set to obtain the best quality of faces with resolution 1024x1024.</li>
 
-<br><br> ![](/doc/images/datasets_analysis_spectrum.png)
+<br><br> ![](/doc/images/spectrumAnalysisdatasets.jpg)
 
 </ul>
 	
@@ -54,14 +54,14 @@ Frequency domain analysis is important in signal processing theory. In the field
 ![](/doc/images/pipeline.jpg)
 	
 <b>2D Discrete Fourier Transform (2D DFT)</b>  
-<br><br> ![](/doc/images/esempio1.png)
-<br><br> ![](/doc/images/esempio2.png)
+<br><br> ![](/doc/images/example1.jpg)
+<br><br> ![](/doc/images/example2.jpg)
 
 <b>Azimuthal Average</b> 
-<br><br> ![](/doc/images/FFHQ_1.png)
-<br><br> ![](/doc/images/StyleGAN1_0.png)
-<br><br> ![](/doc/images/StyleGAN2_0.png)
-<br><br> ![](/doc/images/celebA-HQ_9.png)
+<br><br> ![](/doc/images/FFHQ.jpg)
+<br><br> ![](/doc/images/StyleGAN1.jpg)
+<br><br> ![](/doc/images/StyleGAN2.jpg)
+<br><br> ![](/doc/images/celebA.jpg)
 
 </li>
 
@@ -71,7 +71,7 @@ Frequency domain analysis is important in signal processing theory. In the field
 
 <b>1 vs 1</b>: this first experiment aims to discover significant patterns in order to discriminate real faces from fake ones as effectively as possible using a dataset of real faces and one of fake faces in rotation (1 vs 1). Therefore the tests performed concern: FFHQ vs StyleGAN 1, FFHQ vs StyleGAN 2, celebA vs StyleGAN 1 and celebA vs StyleGAN 2. For the subdivision into train set and test set, the proportion 80% - 20% was adopted respectively, so as to have the same number of samples of real and fake faces in both the train set and test set. In particular, the train set consists of 6400 samples (3200 real, 3200 fake) the test set of 1600 samples (800 real, 800 fake). To determine the best parameters to apply to SVM and Random Forest, a 5-fold cross validation was performed on the train set. The metric used to determine the best parameters was the fscore averaged over the test folds.
 
-<br><br> ![](/doc/images/1vs1.png)
+<br><br> ![](/doc/images/1vs1.jpg)
 
 <b>FFHQ vs StyleGAN1</b>
 <br><br> ![](/doc/images/FFHQvsStyleGAN1res.png)
@@ -94,7 +94,7 @@ Frequency domain analysis is important in signal processing theory. In the field
 
 <b>2 vs 1</b>: this experiment instead aims to compare with other related works [4] [5] [33] [34]. The approach on this occasion consists of a 2 vs 1, or two datasets of real faces and one of fake faces. Therefore the tests performed concern: FFHQ, celebA vs StyleGAN 1, FFHQ, celebA vs StyleGAN 2. For the subdivision into train set and test set, the proportion 80% - 20% stratified was adopted respectively so as to have the same number of samples of real and fake faces both in the train set and test set. In particular, the train set consists of 6400 samples (3200 real, 3200 fake) the test set of 1600 samples (800 real, 800 fake). To determine the best parameters to apply to SVM and Random Forest, a 5-fold cross validation was performed on the train set. The metric used to determine the best parameters was the fscore averaged over the test folds.
 
-<br><br> ![](/doc/images/1vs2.png)
+<br><br> ![](/doc/images/1vs2.jpg)
 
 <b>FFHQ, CelebA vs StyleGAN1</b>
 <br><br> ![](/doc/images/FFHQCelebAvsStyleGAN1.png)
@@ -107,7 +107,7 @@ Frequency domain analysis is important in signal processing theory. In the field
 
 <b>FFHQ, celebA vs StyleGAN 1, StyleGAN 2</b>: to conclude the experimentation, all the individual datasets were combined to form a single dataset from which to determine the discriminating patterns to correctly classify real faces from fake ones (fig. 22). For the subdivision into train set and test set, the 80% - 20% stratified proportion was adopted respectively so as to have the same number of samples of real and fake faces both in the train set and test set. In particular, the train set consists of 12800 samples (6400 real, 6400 fake) the test set of 3200 samples (1600 real, 1600 fake). To determine the best parameters to apply to SVM and Random Forest, a 5-fold cross validation was performed on the train set. The metric used to determine the best parameters was the fscore averaged over the test folds.
 
-<br><br> ![](doc/images/allvsall.png)
+<br><br> ![](doc/images/allVSall.jpg)
 <br><br> ![](doc/images/FFHQCelebAvsStyleGAN1_2.png)
 
 </li>
